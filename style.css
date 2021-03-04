@@ -1,4 +1,45 @@
-body {background-color:tan;}
-h1{color:green;}
+body {background-color:black;}
+h1{color:grey;}
+
+input
+{
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    border-radius: 5px;
+}
+
+.container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color: white;
+	border-radius: 10px;	
+	position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);   
+    padding: 40px;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 30px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	font-weight: 700;
+} 
+
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+}
 
 
+#result {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-style: bold;
+}
+
+.sub{
+	background-color: rgb(179, 255, 0);
+}
